@@ -12,8 +12,7 @@
 
 <style scoped>
 .product_div{
-margin-top: 75px;
-margin-bottom: 75px;
+min-height: 60vh;
 display: grid;
 justify-items: center;
 align-items: center;

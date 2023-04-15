@@ -23,6 +23,10 @@ display: grid;
 text-align: center;
 
 grid-template-rows: 50px 50px 50px;
+
+align-items: center;
+
+justify-items: center;
 }
 
 </style>
