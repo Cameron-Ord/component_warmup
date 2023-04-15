@@ -1,22 +1,19 @@
 <template>
   <div>
-    <header><page-header></page-header></header>
-    <main><page-main></page-main></main>
-    <footer><page-footer></page-footer></footer>
+    <product-hero></product-hero>
+    <product-info></product-info>
   </div>
 </template>
 
 <script>
-import PageHeader from './components/PageHeader.vue';
-import PageMain from './components/PageMain.vue';
-import PageFooter from './components/PageFooter.vue';
+import ProductHero from './components/ProductHero.vue';
+import ProductInfo from './components/ProductInfo.vue';
 export default {
   name: 'App',
   components: {
 
-    PageHeader,
-    PageMain,
-    PageFooter
+ProductHero,
+ProductInfo
     
   }
 }
@@ -32,4 +29,6 @@ export default {
 body{
 
 }
+
+
 </style>
